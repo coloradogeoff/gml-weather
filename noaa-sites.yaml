@@ -1,0 +1,942 @@
+- code: AAO
+  name: Airborne Aerosol Observatory, Bondville, Illinois
+  latitude: 40.050
+  longitude: -88.370
+  elevation_m: 230.0
+  gmt_offset: -6
+- code: ABP
+  name: Arapaho Peak
+  latitude: 40.000
+  longitude: -105.500
+  elevation_m: 3800.0
+  gmt_offset: -6
+- code: ABQ
+  name: Albuquerque, New Mexico
+  latitude: 35.040
+  longitude: -106.620
+  elevation_m: 1570.0
+  gmt_offset: -7
+- code: ACG
+  name: Atmospheric Carbon Greenland
+  latitude: 70.484
+  longitude: -21.971
+  elevation_m: 0.0
+  gmt_offset: -3
+- code: ALT
+  name: Alert, Northwest Territories
+  latitude: 82.452
+  longitude: -62.517
+  elevation_m: 195.0
+  gmt_offset: -5
+- code: AMS
+  name: Amsterdam Island, Indian Ocean
+  latitude: -37.796
+  longitude: 77.567
+  elevation_m: 55.0
+  gmt_offset: 5
+- code: AMT
+  name: Argyle, Maine
+  latitude: 45.033
+  longitude: -69.067
+  elevation_m: 340.0
+  gmt_offset: -5
+- code: AMY
+  name: Anmyeon-do, South Korea
+  latitude: 36.538
+  longitude: 126.331
+  elevation_m: 45.0
+  gmt_offset: 9
+- code: APP
+  name: Appalachian State University, North Carolina
+  latitude: 36.214
+  longitude: -81.693
+  elevation_m: 1101.0
+  gmt_offset: -5
+- code: ARH
+  name: Anaktuvuk River, Alaska
+  latitude: 68.511
+  longitude: -151.735
+  elevation_m: 594.0
+  gmt_offset: -9
+- code: ARN
+  name: Arenosillo, Spain
+  latitude: 37.100
+  longitude: -6.730
+  elevation_m: 50.0
+  gmt_offset: 1
+- code: ASC
+  name: Ascension Island, South Atlantic
+  latitude: -7.920
+  longitude: -14.420
+  elevation_m: 85.0
+  gmt_offset: -1
+- code: ASK
+  name: Assekrem, Algeria
+  latitude: 23.262
+  longitude: 5.632
+  elevation_m: 2728.0
+  gmt_offset: 1
+- code: ATA
+  name: Alert, Nunavut
+  latitude: 82.452
+  longitude: -62.517
+  elevation_m: 195.0
+  gmt_offset: -5
+- code: AVH
+  name: Arviharju, Finland
+  latitude: 62.581
+  longitude: 27.606
+  elevation_m: 0.0
+  gmt_offset: 2
+- code: BAL
+  name: Baltic Sea
+  latitude: 55.350
+  longitude: 17.230
+  elevation_m: 3.0
+  gmt_offset: 1
+- code: BBS
+  name: Barbados, Ragged Point
+  latitude: 13.165
+  longitude: -59.433
+  elevation_m: 45.0
+  gmt_offset: -4
+- code: BGI
+  name: Begur, Spain
+  latitude: 41.970
+  longitude: 3.270
+  elevation_m: 150.0
+  gmt_offset: 1
+- code: BHD
+  name: Baltic Sea, Poland
+  latitude: 55.350
+  longitude: 17.230
+  elevation_m: 3.0
+  gmt_offset: 1
+- code: BKT
+  name: Bukit Kototabang, Indonesia
+  latitude: -0.200
+  longitude: 100.320
+  elevation_m: 860.0
+  gmt_offset: 7
+- code: BME
+  name: Baring Head, New Zealand
+  latitude: -41.408
+  longitude: 174.871
+  elevation_m: 85.0
+  gmt_offset: 12
+- code: BMH
+  name: Barrow, Alaska
+  latitude: 71.323
+  longitude: -156.611
+  elevation_m: 11.0
+  gmt_offset: -9
+- code: BMW
+  name: Boundary Waters Canoe Area, Minnesota
+  latitude: 47.561
+  longitude: -91.236
+  elevation_m: 600.0
+  gmt_offset: -6
+- code: BNE
+  name: Banner, Montana
+  latitude: 45.436
+  longitude: -109.754
+  elevation_m: 3353.0
+  gmt_offset: -7
+- code: BNO
+  name: Bern, Switzerland
+  latitude: 46.570
+  longitude: 7.990
+  elevation_m: 797.0
+  gmt_offset: 1
+- code: BRM
+  name: Bermuda, Bermuda
+  latitude: 32.27
+  longitude: -64.88
+  elevation_m: 30.0
+  gmt_offset: -4
+- code: BRW
+  name: Barrow, Alaska
+  latitude: 71.323
+  longitude: -156.611
+  elevation_m: 11.0
+  gmt_offset: -9
+- code: BRZ
+  name: Brasilia, Distrito Federal, Brazil
+  latitude: -15.600
+  longitude: -47.720
+  elevation_m: 1070.0
+  gmt_offset: -3
+- code: BSC
+  name: Black Sea
+  latitude: 44.580
+  longitude: 29.440
+  elevation_m: 3.0
+  gmt_offset: 2
+- code: BRG
+  name: Black River, Geyser Basin, WY
+  latitude: 43.839
+  longitude: -110.409
+  elevation_m: 1980.0
+  gmt_offset: -7
+- code: BTA
+  name: Balsam Lake, Wisconsin
+  latitude: 45.450
+  longitude: -92.420
+  elevation_m: 400.0
+  gmt_offset: -6
+- code: CBA
+  name: Cold Bay, Alaska
+  latitude: 55.200
+  longitude: -162.720
+  elevation_m: 25.0
+  gmt_offset: -9
+- code: CGO
+  name: Cape Grim, Tasmania, Australia
+  latitude: -40.683
+  longitude: 144.690
+  elevation_m: 94.0
+  gmt_offset: 10
+- code: CHR
+  name: Cherokee Nation, Oklahoma
+  latitude: 36.840
+  longitude: -94.230
+  elevation_m: 300.0
+  gmt_offset: -6
+- code: CHS
+  name: Chestnut Ridge, West Virginia
+  latitude: 39.43
+  longitude: -79.84
+  elevation_m: 1100.0
+  gmt_offset: -5
+- code: CIB
+  name: Cimarron, New Mexico
+  latitude: 36.536
+  longitude: -104.615
+  elevation_m: 2486.0
+  gmt_offset: -7
+- code: CMA
+  name: Cape Matatula, American Samoa
+  latitude: -14.250
+  longitude: -170.570
+  elevation_m: 77.0
+  gmt_offset: -11
+- code: CMO
+  name: Colorado Mountains
+  latitude: 40.050
+  longitude: -105.580
+  elevation_m: 3400.0
+  gmt_offset: -7
+- code: CPA
+  name: Cape Point, South Africa
+  latitude: -34.352
+  longitude: 18.490
+  elevation_m: 230.0
+  gmt_offset: 2
+- code: CPT
+  name: Cape Point, South Africa
+  latitude: -34.352
+  longitude: 18.490
+  elevation_m: 230.0
+  gmt_offset: 2
+- code: CRZ
+  name: Crozet Island, Indian Ocean
+  latitude: -46.433
+  longitude: 51.867
+  elevation_m: 120.0
+  gmt_offset: 5
+- code: CST
+  name: Castellon, Spain
+  latitude: 39.983
+  longitude: 0.033
+  elevation_m: 30.0
+  gmt_offset: 1
+- code: CUT
+  name: Cumbres de Ucumari, Columbia
+  latitude: 4.764
+  longitude: -75.496
+  elevation_m: 3390.0
+  gmt_offset: -5
+- code: CVO
+  name: Carbon in Vegetation and Soils, Near Ubiaja, Costa Rica
+  latitude: 10.000
+  longitude: -84.500
+  elevation_m: 200.0
+  gmt_offset: -6
+- code: DEM
+  name: Demokritos, Greece
+  latitude: 38.100
+  longitude: 23.860
+  elevation_m: 0.0
+  gmt_offset: 2
+- code: DNG
+  name: Duke Forest, North Carolina
+  latitude: 36.031
+  longitude: -79.100
+  elevation_m: 163.0
+  gmt_offset: -5
+- code: DNK
+  name: Danum Valley, Malaysia
+  latitude: 5.020
+  longitude: 117.530
+  elevation_m: 65.0
+  gmt_offset: 8
+- code: DRP
+  name: Dry Pine Ridge, Wisconsin
+  latitude: 45.340
+  longitude: -91.830
+  elevation_m: 461.0
+  gmt_offset: -6
+- code: DSI
+  name: Dongsha Island, Taiwan
+  latitude: 20.699
+  longitude: 116.729
+  elevation_m: 6.0
+  gmt_offset: 8
+- code: EGB
+  name: Egbert, Ontario
+  latitude: 44.230
+  longitude: -79.780
+  elevation_m: 251.0
+  gmt_offset: -5
+- code: EIC
+  name: Easter Island, Chile
+  latitude: -27.150
+  longitude: -109.450
+  elevation_m: 69.0
+  gmt_offset: -6
+- code: ESP
+  name: Estevan Point, British Columbia
+  latitude: 49.383
+  longitude: -126.550
+  elevation_m: 10.0
+  gmt_offset: -8
+- code: GMI
+  name: Grifton, North Carolina
+  latitude: 35.42
+  longitude: -77.30
+  elevation_m: 13.0
+  gmt_offset: -5
+- code: GSM
+  name: Great Smoky Mountains, Tennessee
+  latitude: 35.600
+  longitude: -83.500
+  elevation_m: 1350.0
+  gmt_offset: -5
+- code: GSN
+  name: Groningen Station
+  latitude: 53.220
+  longitude: 6.580
+  elevation_m: 0.0
+  gmt_offset: 1
+- code: HBA
+  name: Halley Bay, Antarctica
+  latitude: -75.606
+  longitude: -26.210
+  elevation_m: 0.0
+  gmt_offset: -2
+- code: HDA
+  name: Hanstholm, Denmark
+  latitude: 57.114
+  longitude: 8.600
+  elevation_m: 40.0
+  gmt_offset: 1
+- code: HFM
+  name: Harvard Forest, Massachusetts
+  latitude: 42.500
+  longitude: -72.200
+  elevation_m: 230.0
+  gmt_offset: -5
+- code: HIL
+  name: Hilo, Hawaii
+  latitude: 19.720
+  longitude: -155.070
+  elevation_m: 16.0
+  gmt_offset: -10
+- code: HLE
+  name: Helen, Georgia
+  latitude: 34.700
+  longitude: -83.750
+  elevation_m: 343.0
+  gmt_offset: -5
+- code: HNH
+  name: Hyltemossa, Sweden
+  latitude: 56.100
+  longitude: 13.417
+  elevation_m: 81.0
+  gmt_offset: 1
+- code: HPB
+  name: Healy, Alaska
+  latitude: 63.850
+  longitude: -148.977
+  elevation_m: 640.0
+  gmt_offset: -9
+- code: HUN
+  name: Hegyhatsal, Hungary
+  latitude: 46.950
+  longitude: 16.650
+  elevation_m: 344.0
+  gmt_offset: 1
+- code: IZO
+  name: Izaña, Tenerife, Canary Islands
+  latitude: 28.300
+  longitude: -16.500
+  elevation_m: 2373.0
+  gmt_offset: 0
+- code: JER
+  name: Jerantut, Malaysia
+  latitude: 3.980
+  longitude: 102.400
+  elevation_m: 130.0
+  gmt_offset: 8
+- code: KEY
+  name: Key Biscayne, Florida
+  latitude: 25.667
+  longitude: -80.167
+  elevation_m: 0.0
+  gmt_offset: -5
+- code: KUM
+  name: Kumukahi, Hawaii
+  latitude: 19.520
+  longitude: -154.820
+  elevation_m: 0.0
+  gmt_offset: -10
+- code: KUR
+  name: Karura, Kenya
+  latitude: -1.245
+  longitude: 36.794
+  elevation_m: 1616.0
+  gmt_offset: 3
+- code: KZD
+  name: Kranzberger Forest, Germany
+  latitude: 48.250
+  longitude: 11.650
+  elevation_m: 485.0
+  gmt_offset: 1
+- code: LAC
+  name: Lac La Biche, Canada
+  latitude: 54.830
+  longitude: -112.060
+  elevation_m: 540.0
+  gmt_offset: -7
+- code: LJO
+  name: Los Jaules, Mexico
+  latitude: 27.000
+  longitude: -110.350
+  elevation_m: 30.0
+  gmt_offset: -7
+- code: LMP
+  name: Lampedusa, Italy
+  latitude: 35.517
+  longitude: 12.633
+  elevation_m: 45.0
+  gmt_offset: 1
+- code: LMR
+  name: La Merced, Peru
+  latitude: -2.130
+  longitude: -75.370
+  elevation_m: 1050.0
+  gmt_offset: -5
+- code: LNF
+  name: Little Fox, Wisconsin
+  latitude: 45.670
+  longitude: -90.960
+  elevation_m: 470.0
+  gmt_offset: -6
+- code: LPH
+  name: Lac La Biche, Canada
+  latitude: 54.830
+  longitude: -112.060
+  elevation_m: 540.0
+  gmt_offset: -7
+- code: LVD
+  name: Livermore, California
+  latitude: 37.687
+  longitude: -121.752
+  elevation_m: 175.0
+  gmt_offset: -8
+- code: MBC
+  name: Mould Bay, Northwest Territories
+  latitude: 76.250
+  longitude: -119.350
+  elevation_m: 15.0
+  gmt_offset: -8
+- code: MBO
+  name: Mt. Bachelor Observatory, Oregon
+  latitude: 43.991
+  longitude: -121.688
+  elevation_m: 2730.0
+  gmt_offset: -8
+- code: MCM
+  name: Monte Cimone, Italy
+  latitude: 44.200
+  longitude: 10.700
+  elevation_m: 2165.0
+  gmt_offset: 1
+- code: MEX
+  name: Mexico City, Federal District, Mexico
+  latitude: 19.500
+  longitude: -98.000
+  elevation_m: 2280.0
+  gmt_offset: -6
+- code: MFS
+  name: Morgan Monroe State Forest, Indiana
+  latitude: 39.324
+  longitude: -86.413
+  elevation_m: 275.0
+  gmt_offset: -5
+- code: MID
+  name: Midway Island, Pacific Ocean
+  latitude: 28.220
+  longitude: -177.370
+  elevation_m: 0.0
+  gmt_offset: -11
+- code: MKA
+  name: Mauna Kea, Hawaii
+  latitude: 19.820
+  longitude: -155.470
+  elevation_m: 4205.0
+  gmt_offset: -10
+- code: MKB
+  name: Mt. Kenya, Kenya
+  latitude: -0.050
+  longitude: 37.300
+  elevation_m: 3646.0
+  gmt_offset: 3
+- code: MLO
+  name: Mauna Loa, Hawaii
+  latitude: 19.536
+  longitude: -155.576
+  elevation_m: 3397.0
+  gmt_offset: -10
+- code: MNM
+  name: Misamis Oriental, Philippines
+  latitude: 8.68
+  longitude: 124.8
+  elevation_m: 14.0
+  gmt_offset: 8
+- code: MQA
+  name: Marion Island, South Africa
+  latitude: -46.883
+  longitude: 37.883
+  elevation_m: 44.0
+  gmt_offset: 2
+- code: MRG
+  name: Mountain Research Station, Colorado
+  latitude: 40.02
+  longitude: -105.55
+  elevation_m: 2810.0
+  gmt_offset: -7
+- code: MWO
+  name: Mt Wilson, California
+  latitude: 34.224
+  longitude: -118.058
+  elevation_m: 1742.0
+  gmt_offset: -8
+- code: MBA
+  name: Moose Mountain, Saskatchewan
+  latitude: 49.250
+  longitude: -102.970
+  elevation_m: 594.0
+  gmt_offset: -6
+- code: NAU
+  name: Naucalpan, Mexico
+  latitude: 19.450
+  longitude: -99.217
+  elevation_m: 2450.0
+  gmt_offset: -6
+- code: NHA
+  name: Niwot Ridge, Colorado
+  latitude: 40.050
+  longitude: -105.580
+  elevation_m: 3400.0
+  gmt_offset: -7
+- code: NMB
+  name: Nyamuragira Volcano, Democratic Republic of Congo
+  latitude: -1.410
+  longitude: 29.200
+  elevation_m: 3475.0
+  gmt_offset: 2
+- code: NMY
+  name: Neumayer, Antarctica
+  latitude: -70.651
+  longitude: -8.256
+  elevation_m: 40.0
+  gmt_offset: -2
+- code: NOK
+  name: Noksan, South Korea
+  latitude: 35.100
+  longitude: 128.970
+  elevation_m: 10.0
+  gmt_offset: 9
+- code: NPL
+  name: Niwot Ridge Forest, Colorado
+  latitude: 40.050
+  longitude: -105.580
+  elevation_m: 3400.0
+  gmt_offset: -7
+- code: NPR
+  name: Niwot Ridge, Colorado
+  latitude: 40.050
+  longitude: -105.580
+  elevation_m: 3400.0
+  gmt_offset: -7
+- code: NWR
+  name: Niwot Ridge, Colorado
+  latitude: 40.050
+  longitude: -105.580
+  elevation_m: 3400.0
+  gmt_offset: -7
+- code: NWF
+  name: Niwot Ridge Forest, Colorado
+  latitude: 40.050
+  longitude: -105.580
+  elevation_m: 3400.0
+  gmt_offset: -7
+- code: OXK
+  name: Ochsenkopf, Germany
+  latitude: 50.030
+  longitude: 11.800
+  elevation_m: 1024.0
+  gmt_offset: 1
+- code: PAL
+  name: Pallas-Sammaltunturi, Finland
+  latitude: 67.973
+  longitude: 24.116
+  elevation_m: 560.0
+  gmt_offset: 2
+- code: PAP
+  name: Paria Peninsula, Venezuela
+  latitude: 10.820
+  longitude: -62.290
+  elevation_m: 25.0
+  gmt_offset: -4
+- code: PDM
+  name: Pic du Midi, France
+  latitude: 42.940
+  longitude: 0.140
+  elevation_m: 2877.0
+  gmt_offset: 1
+- code: PIE
+  name: Picarro, Inc., California
+  latitude: 37.671
+  longitude: -121.829
+  elevation_m: 176.0
+  gmt_offset: -8
+- code: PSA
+  name: Pallas-Sammaltunturi, Finland
+  latitude: 67.973
+  longitude: 24.116
+  elevation_m: 560.0
+  gmt_offset: 2
+- code: PTA
+  name: Point Arena, California
+  latitude: 38.950
+  longitude: -123.740
+  elevation_m: 16.0
+  gmt_offset: -8
+- code: PTB
+  name: Pallas, Finland
+  latitude: 68.000
+  longitude: 24.250
+  elevation_m: 560.0
+  gmt_offset: 2
+- code: PTN
+  name: Pt. Reyes, California
+  latitude: 38.080
+  longitude: -122.780
+  elevation_m: 0.0
+  gmt_offset: -8
+- code: PUY
+  name: Puy de Dome, France
+  latitude: 45.767
+  longitude: 2.967
+  elevation_m: 1465.0
+  gmt_offset: 1
+- code: RIG
+  name: Ridge Hill, New York
+  latitude: 41.270
+  longitude: -74.380
+  elevation_m: 370.0
+  gmt_offset: -5
+- code: RUN
+  name: Reunion Island, Indian Ocean
+  latitude: -21.080
+  longitude: 55.370
+  elevation_m: 15.0
+  gmt_offset: 4
+- code: SCS
+  name: Scottish Centre for Ecology and the Natural Environment, Scotland
+  latitude: 56.13
+  longitude: -4.23
+  elevation_m: 65.0
+  gmt_offset: 0
+- code: SAN
+  name: Santarem, Para, Brazil
+  latitude: -2.860
+  longitude: -54.950
+  elevation_m: 30.0
+  gmt_offset: -3
+- code: SAP
+  name: Sable Island, Nova Scotia
+  latitude: 43.933
+  longitude: -60.017
+  elevation_m: 5.0
+  gmt_offset: -4
+- code: SDZ
+  name: Schauinsland, Germany
+  latitude: 47.920
+  longitude: 7.920
+  elevation_m: 1205.0
+  gmt_offset: 1
+- code: SGI
+  name: Silas Little, New Jersey
+  latitude: 39.913
+  longitude: -74.596
+  elevation_m: 7.0
+  gmt_offset: -5
+- code: SHB
+  name: Sede Boker, Israel
+  latitude: 30.853
+  longitude: 34.783
+  elevation_m: 480.0
+  gmt_offset: 2
+- code: SHM
+  name: Shemya Island, Alaska
+  latitude: 52.720
+  longitude: 174.100
+  elevation_m: 40.0
+  gmt_offset: 10
+- code: SIS
+  name: Sisal, Mexico
+  latitude: 21.150
+  longitude: -90.030
+  elevation_m: 4.0
+  gmt_offset: -6
+- code: SLI
+  name: Slinfold, United Kingdom
+  latitude: 51.050
+  longitude: -0.370
+  elevation_m: 54.0
+  gmt_offset: 0
+- code: SMA
+  name: Summit, Greenland
+  latitude: 72.580
+  longitude: -38.480
+  elevation_m: 3200.0
+  gmt_offset: -3
+- code: SBT
+  name: Strathvaich, Scotland
+  latitude: 57.732
+  longitude: -4.752
+  elevation_m: 365.0
+  gmt_offset: 0
+- code: SCH
+  name: Schauinsland, Germany
+  latitude: 47.920
+  longitude: 7.920
+  elevation_m: 1205.0
+  gmt_offset: 1
+- code: SCSN
+  name: Sable Island, Nova Scotia
+  latitude: 43.933
+  longitude: -60.017
+  elevation_m: 5.0
+  gmt_offset: -4
+- code: SEY
+  name: Sede Boker, Israel
+  latitude: 30.853
+  longitude: 34.783
+  elevation_m: 480.0
+  gmt_offset: 2
+- code: SGP
+  name: Sable Island, Nova Scotia
+  latitude: 43.933
+  longitude: -60.017
+  elevation_m: 5.0
+  gmt_offset: -4
+- code: SHU
+  name: Shangdianzi, China
+  latitude: 40.650
+  longitude: 117.117
+  elevation_m: 293.0
+  gmt_offset: 8
+- code: SIO
+  name: Siofok, Hungary
+  latitude: 46.900
+  longitude: 18.030
+  elevation_m: 115.0
+  gmt_offset: 1
+- code: SNG
+  name: Sede Boker, Israel
+  latitude: 30.850
+  longitude: 34.780
+  elevation_m: 480.0
+  gmt_offset: 2
+- code: SMO
+  name: Samoa, American Samoa
+  latitude: -14.240
+  longitude: -170.570
+  elevation_m: 42.0
+  gmt_offset: -11
+- code: SPO
+  name: South Pole, Antarctica
+  latitude: -89.980
+  longitude: -24.800
+  elevation_m: 2810.0
+  gmt_offset: -2
+- code: STM
+  name: St. Marks, Florida
+  latitude: 30.083
+  longitude: -84.283
+  elevation_m: 0.0
+  gmt_offset: -5
+- code: SUM
+  name: Summit, Greenland
+  latitude: 72.580
+  longitude: -38.480
+  elevation_m: 3200.0
+  gmt_offset: -3
+- code: STC
+  name: Ocean Station Charlie
+  latitude: 54.000
+  longitude: -35.000
+  elevation_m: 6.0
+  gmt_offset: null
+- code: SVB
+  name: Sevastopol, Ukraine
+  latitude: 44.580
+  longitude: 33.410
+  elevation_m: 0.0
+  gmt_offset: 2
+- code: SXF
+  name: Sable Island, Nova Scotia
+  latitude: 43.933
+  longitude: -60.017
+  elevation_m: 5.0
+  gmt_offset: -4
+- code: SYO
+  name: Syowa Station, Antarctica
+  latitude: -69.005
+  longitude: 39.590
+  elevation_m: 11.0
+  gmt_offset: 3
+- code: TAP
+  name: Tae-ahn Peninsula, South Korea
+  latitude: 36.727
+  longitude: 126.128
+  elevation_m: 20.0
+  gmt_offset: 9
+- code: TIK
+  name: Tiksi, Russia
+  latitude: 71.580
+  longitude: 129.000
+  elevation_m: 0.0
+  gmt_offset: 12
+- code: TKL
+  name: Tokelau, Pacific Ocean
+  latitude: -9.370
+  longitude: -171.210
+  elevation_m: 5.0
+  gmt_offset: -11
+- code: TOH
+  name: Tomohon, Indonesia
+  latitude: 1.300
+  longitude: 124.800
+  elevation_m: 1200.0
+  gmt_offset: 8
+- code: TPA
+  name: Tae-ahn Peninsula, South Korea
+  latitude: 36.700
+  longitude: 126.130
+  elevation_m: 20.0
+  gmt_offset: 9
+- code: TRN
+  name: Trinidad Head, California
+  latitude: 41.050
+  longitude: -124.150
+  elevation_m: 107.0
+  gmt_offset: -8
+- code: UBM
+  name: University of Bern, Switzerland
+  latitude: 46.950
+  longitude: 7.440
+  elevation_m: 840.0
+  gmt_offset: 1
+- code: UTA
+  name: Hidden Peak, Utah
+  latitude: 40.120
+  longitude: -111.630
+  elevation_m: 3400.0
+  gmt_offset: -7
+- code: UUM
+  name: Ulaan Uul, Mongolia
+  latitude: 44.450
+  longitude: 111.100
+  elevation_m: 1020.0
+  gmt_offset: 8
+- code: UVB
+  name: Ulaan Uul, Mongolia
+  latitude: 44.450
+  longitude: 111.100
+  elevation_m: 1020.0
+  gmt_offset: 8
+- code: VIC
+  name: Victorville, California
+  latitude: 34.600
+  longitude: -117.283
+  elevation_m: 875.0
+  gmt_offset: -8
+- code: VIN
+  name: Vinton, Louisiana
+  latitude: 30.200
+  longitude: -93.567
+  elevation_m: 4.0
+  gmt_offset: -6
+- code: WBI
+  name: West Branch, Iowa
+  latitude: 41.670
+  longitude: -91.350
+  elevation_m: 241.0
+  gmt_offset: -6
+- code: WGC
+  name: West Greenwich, Rhode Island
+  latitude: 41.640
+  longitude: -71.670
+  elevation_m: 120.0
+  gmt_offset: -5
+- code: WIS
+  name: Weybourne, United Kingdom
+  latitude: 52.950
+  longitude: 1.120
+  elevation_m: 10.0
+  gmt_offset: 0
+- code: WKT
+  name: Wenkheim, Germany
+  latitude: 49.759
+  longitude: 9.396
+  elevation_m: 255.0
+  gmt_offset: 1
+- code: WLG
+  name: Walton Lake, Michigan
+  latitude: 42.460
+  longitude: -85.400
+  elevation_m: 267.0
+  gmt_offset: -5
+- code: WPCN
+  name: West Point, California
+  latitude: 41.680
+  longitude: -70.260
+  elevation_m: 52.0
+  gmt_offset: null
+- code: WPTN
+  name: West Point, California
+  latitude: 41.680
+  longitude: -70.260
+  elevation_m: 52.0
+  gmt_offset: null
+- code: ZEP
+  name: Zeppelin, Svalbard
+  latitude: 78.910
+  longitude: 11.890
+  elevation_m: 475.0
+  gmt_offset: 1
