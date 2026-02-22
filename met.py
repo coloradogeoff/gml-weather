@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
-import argparse
 import json
 import math
 import re
 from datetime import datetime, timezone
+from typing import Optional
 from urllib.parse import urlencode
-from urllib.request import urlopen
 from urllib.error import URLError
+from urllib.request import urlopen
+
+import typer
 
 
 
@@ -34,7 +36,7 @@ def parse_target_datetime(value):
         )
     if re.fullmatch(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}", value):
         return datetime.strptime(value, "%Y-%m-%d %H:%M").replace(tzinfo=timezone.utc)
-    raise argparse.ArgumentTypeError(
+    raise typer.BadParameter(
         "Invalid datetime. Use 'YYYY-MM-DD HH:MM[:SS]' or 'YYYYMMDDHHMM[SS]'."
     )
 
@@ -79,23 +81,23 @@ def load_sites(path):
     return sites
 
 
-def resolve_location(args):
-    if args.site:
-        if args.lon is not None:
-            raise SystemExit("Do not pass --lon with --site. Use only --site.")
-        sites = load_sites(args.sites_file)
-        site_code = args.site.upper()
+def resolve_location(site, lat, lon, sites_file):
+    if site:
+        if lon is not None:
+            raise typer.BadParameter("Do not pass --lon with --site. Use only --site.")
+        sites = load_sites(sites_file)
+        site_code = site.upper()
         if site_code not in sites:
-            raise SystemExit(
-                f"Unknown site '{args.site}'. Check code in {args.sites_file}."
+            raise typer.BadParameter(
+                f"Unknown site '{site}'. Check code in {sites_file}."
             )
         site = sites[site_code]
         return site["latitude"], site["longitude"], site_code, site.get("name", site_code)
 
-    if args.lat is None or args.lon is None:
-        raise SystemExit("When not using --site, both --lat and --lon are required.")
+    if lat is None or lon is None:
+        raise typer.BadParameter("When not using --site, both --lat and --lon are required.")
 
-    return args.lat, args.lon, None, "custom"
+    return lat, lon, None, "custom"
 
 
 def fetch_hourly_wind(lat, lon, target_time):
@@ -109,7 +111,7 @@ def fetch_hourly_wind(lat, lon, target_time):
         "hourly": "wind_speed_10m,wind_direction_10m",
         "wind_speed_unit": "ms",
         "timezone": "GMT",
-        "models": "era5",
+        #"models": "era5",      # the default is "best", which may return ERA5 or other models depending on availability. Specifying "era5" may result in no data if ERA5 is not available for the requested date/location.
     }
 
     query = urlencode(params)
@@ -131,31 +133,47 @@ def fetch_hourly_wind(lat, lon, target_time):
     )
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Interpolate wind speed/direction at a target UTC datetime."
-    )
-    location_group = parser.add_mutually_exclusive_group(required=True)
-    location_group.add_argument("--site", help="Site code from noaa-sites.yaml")
-    location_group.add_argument("--lat", type=float, help="Latitude in decimal degrees")
+app = typer.Typer(
+    add_completion=False,
+    help="Interpolate wind speed/direction at a target UTC datetime.",
+)
 
-    parser.add_argument("--lon", type=float, help="Longitude in decimal degrees")
-    parser.add_argument(
+
+@app.command()
+def main(
+    site: Optional[str] = typer.Option(
+        None,
+        "--site",
+        help="Site code from noaa-sites.yaml",
+    ),
+    lat: Optional[float] = typer.Option(
+        None,
+        "--lat",
+        help="Latitude in decimal degrees",
+    ),
+    lon: Optional[float] = typer.Option(
+        None,
+        "--lon",
+        help="Longitude in decimal degrees",
+    ),
+    datetime_text: str = typer.Option(
+        ...,
         "--datetime",
-        required=True,
-        type=parse_target_datetime,
         help="UTC datetime: 'YYYY-MM-DD HH:MM[:SS]' or 'YYYYMMDDHHMM[SS]'",
-    )
-    parser.add_argument(
+    ),
+    sites_file: str = typer.Option(
+        "noaa-sites.yaml",
         "--sites-file",
-        default="noaa-sites.yaml",
         help="Path to NOAA site list (default: noaa-sites.yaml)",
-    )
+    ),
+):
+    if site is None and lat is None:
+        raise typer.BadParameter("Provide either --site or --lat with --lon.")
+    if site is not None and lat is not None:
+        raise typer.BadParameter("Use either --site or --lat/--lon, not both.")
 
-    args = parser.parse_args()
-
-    lat, lon, site_code, site_name = resolve_location(args)
-    target_time = args.datetime
+    target_time = parse_target_datetime(datetime_text)
+    lat, lon, site_code, site_name = resolve_location(site, lat, lon, sites_file)
 
     times, ws, wd = fetch_hourly_wind(lat, lon, target_time)
     hourly_dt = [datetime.fromisoformat(t).replace(tzinfo=timezone.utc) for t in times]
@@ -199,4 +217,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()
