@@ -124,7 +124,7 @@ def plot_wind_spd_comparison(site, site_df):
 
     # Bottom (3/4): main time series
     ax_main.scatter(subset["datetime_utc"], subset["wind_spd"], s=15, alpha=0.7, label="Observed")
-    ax_main.scatter(subset["datetime_utc"], subset[api_spd_col], s=15, alpha=0.7, label="API")
+    ax_main.scatter(subset["datetime_utc"], subset[api_spd_col], s=15, alpha=0.7, label="Reanalysis")
     ax_main.set_ylabel("wind speed (m/s)")
     ax_main.set_xlabel("datetime_utc")
     ax_main.legend()
@@ -158,7 +158,7 @@ def plot_wind_dir_comparison(site, site_df):
 
     # Bottom (3/4): main time series
     ax_main.scatter(subset["datetime_utc"], subset["wind_dir"], s=15, alpha=0.7, label="Observed")
-    ax_main.scatter(subset["datetime_utc"], subset[api_dir_col], s=15, alpha=0.7, label="API")
+    ax_main.scatter(subset["datetime_utc"], subset[api_dir_col], s=15, alpha=0.7, label="Reanalysis")
     ax_main.set_ylabel("wind direction (deg)")
     ax_main.set_xlabel("datetime_utc")
     ax_main.legend()
