@@ -418,6 +418,12 @@
   longitude: -112.060
   elevation_m: 540.0
   gmt_offset: -7
+- code: LEF
+  name: Park Falls, Wisconsin
+  latitude: 45.9451
+  longitude: -90.2732
+  elevation_m: 472.0
+  gmt_offset: -6
 - code: LJO
   name: Los Jaules, Mexico
   latitude: 27.000
