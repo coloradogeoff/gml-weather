@@ -11,6 +11,7 @@ import flask_data
 
 api = ArchivedMetAPI("noaa-sites.yaml")
 sites = ["alt", "brw", "cgo", "nwr", "hfm"]
+RESULTS_DIR = "results"
 gml_df = None
 day_cache = {}
 
@@ -129,7 +130,7 @@ def plot_wind_spd_comparison(site, site_df):
     ax_main.legend()
 
     plt.tight_layout()
-    plt.savefig(f"wind_speed_comparison_{site}.png")
+    plt.savefig(os.path.join(RESULTS_DIR, f"wind_speed_comparison_{site}.png"))
 
 
 def plot_wind_dir_comparison(site, site_df):
@@ -163,11 +164,12 @@ def plot_wind_dir_comparison(site, site_df):
     ax_main.legend()
 
     plt.tight_layout()
-    plt.savefig(f"wind_direction_comparison_{site}.png")
+    plt.savefig(os.path.join(RESULTS_DIR, f"wind_direction_comparison_{site}.png"))
 
 
 def main():
     global gml_df
+    os.makedirs(RESULTS_DIR, exist_ok=True)
     day_cache.clear()
     comparison = MetComparison(
         "https://gml.noaa.gov/aftp/data/hats/hcfcs/hcfc142b/flasks/HCFC142B_GCMS_flask.txt"
@@ -175,7 +177,7 @@ def main():
     gml_df = comparison.load_gml_data()
 
     for site in sites:
-        csv_path = f"{site}_gml_comparison.csv"
+        csv_path = os.path.join(RESULTS_DIR, f"{site}_gml_comparison.csv")
         if os.path.exists(csv_path):
             print(f"[{site}] loading cached comparison data from {csv_path}")
             site_df = pd.read_csv(csv_path, parse_dates=["datetime_utc"])
