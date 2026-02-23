@@ -12,6 +12,7 @@ import flask_data
 api = ArchivedMetAPI("noaa-sites.yaml")
 sites = ["alt", "brw", "cgo", "nwr", "hfm"]
 RESULTS_DIR = "results"
+FIGURE_START = pd.Timestamp("2020-01-01", tz="UTC")
 gml_df = None
 day_cache = {}
 
@@ -106,6 +107,7 @@ def plot_wind_spd_comparison(site, site_df):
     api_dir_col = "api_wind_dir"
     subset = (
         site_df.loc[:, ["datetime_utc", "wind_spd", api_spd_col, "wind_dir", api_dir_col]]
+        .loc[lambda d: pd.to_datetime(d["datetime_utc"], errors="coerce", utc=True) >= FIGURE_START]
         .dropna()
         .copy()
     )
@@ -137,6 +139,7 @@ def plot_wind_dir_comparison(site, site_df):
     api_dir_col = "api_wind_dir"
     subset = (
         site_df.loc[:, ["datetime_utc", "wind_dir", api_dir_col]]
+        .loc[lambda d: pd.to_datetime(d["datetime_utc"], errors="coerce", utc=True) >= FIGURE_START]
         .dropna()
         .copy()
     )
